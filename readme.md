@@ -6,7 +6,7 @@ where that isn't officially supported, here's what to do
 (in your command line):
 
 ```
-npm i -g babel
+make dependencies
 make
 ```
 
