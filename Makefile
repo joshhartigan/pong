@@ -1,6 +1,5 @@
 game: game.es6
-	babel game.es6 > build.js
-	minifiy build.js
+	babel game.es6 > build.js && minify -o build.js build.js
 
 dependencies:
 	npm install -g babel
